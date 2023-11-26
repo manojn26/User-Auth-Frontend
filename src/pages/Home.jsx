@@ -46,7 +46,7 @@ const Home = () => {
 
     return (
         <>
-            {!userResponse ? <Container>
+            {userResponse ? <Container>
                 <h1>Welcome to Our Page</h1>
                 <p>We are here to serve you</p>
                 <p>Name : {userResponse?.name}</p>
